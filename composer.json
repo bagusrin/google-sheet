@@ -12,5 +12,10 @@
     "minimum-stability": "dev",
     "require": {
         "google/apiclient": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bagusrin\\Gsheet\\": "src/"
+        }
     }
 }
