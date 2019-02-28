@@ -5,6 +5,8 @@ Google Sheet 3rd Party for PHP
 
 ```php
 
+use Bagusrin\Gsheet\Client;
+
 $client = new Client([
                         'spreadSheetId' => 'SPREADSHEET ID',
                         'token' => 'TOKEN' 
