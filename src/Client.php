@@ -67,7 +67,6 @@ class Client{
         $credentialPath = $dt['credentialPath'];
         $coloumn = $dt['coloumn'];
         $applicationName = $dt['applicationName'];
-        $rawData = $dt['rawData'];
 
         $res = self::getCLient($credentialPath, $applicationName);
 
