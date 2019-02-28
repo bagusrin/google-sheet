@@ -97,7 +97,7 @@ class Client{
 
         $client = new Google_Client();
         $client->setApplicationName($applicationName);
-        $client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
+        $client->setScopes(\Google_Service_Sheets::SPREADSHEETS_READONLY);
         $client->setAuthConfig($credentialPath);
         $client->setAccessType('offline');
         $client->setPrompt('select_account consent');
