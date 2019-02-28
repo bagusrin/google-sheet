@@ -1,0 +1,16 @@
+{
+    "name": "bagusrin/google-sheet",
+    "description": "Google Sheet 3rd Party",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagus Rinaldhi",
+            "email": "bagusrinn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "google/apiclient": "^2.0@dev"
+    }
+}
