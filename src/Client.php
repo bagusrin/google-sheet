@@ -71,7 +71,7 @@ class Client{
         $res = self::getCLient($credentialPath, $applicationName);
 
         $client = $res;
-        $service = new Google_Service_Sheets($client);
+        $service = new \Google_Service_Sheets($client);
 
         $spreadsheetId = $this->spreadSheetId;
         $range = $coloumn;
@@ -95,7 +95,7 @@ class Client{
      */
     private function getClient($credentialPath, $applicationName){
 
-        $client = new Google_Client();
+        $client = new \Google_Client();
         $client->setApplicationName($applicationName);
         $client->setScopes(\Google_Service_Sheets::SPREADSHEETS_READONLY);
         $client->setAuthConfig($credentialPath);
