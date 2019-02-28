@@ -1,9 +1,9 @@
 # google-sheet
 Google Sheet 3rd Party for PHP
 
-=== Usage ===
+## Usage
 
-<?php
+```php
 
 $client = new Client([
                         'spreadSheetId' => 'SPREADSHEET ID',
